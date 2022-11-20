@@ -31,9 +31,9 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Contact Cards',
-        short_name: 'Contact',
-        description: 'Never forget your contacts!',
+        name: 'O ffline Text Editor',
+        short_name: 'Text Editor',
+        description: 'Offline Text Editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: './',
@@ -66,9 +66,8 @@ module.exports = () => {
               presets: ['@babel/preset-env'],
               plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
             },
-          },
-        },
-      ],
+          },},
+        ],
     },
   };
 };
